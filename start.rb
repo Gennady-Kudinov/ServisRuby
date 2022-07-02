@@ -114,7 +114,8 @@ hh = {
   'гритвол' => 'GREAT WALL',
   'great wall' => 'GREAT WALL',
   'mitsubishi' => 'MITSUBISHI',
-  'ravon' => 'RAVON'
+  'ravon' => 'RAVON',
+  'haval' => 'HAVAL'
 }
 
 hash_model = {
@@ -353,6 +354,8 @@ hash_model = {
   'ланцер9' => 'LANCER 9',
   'pajero' => 'PAJERO',
   'паджеро' => 'PAJERO',
+  'asx' => 'ASX',
+  'асх' => 'ASX',
   'nexia' => 'NEXIA',
   'нексия' => 'NEXIA',
   'matiz' => 'MATIZ',
@@ -378,8 +381,12 @@ hash_model = {
   'астраж' => 'ASTRA J',
   'astrah' => 'ASTRA H',
   'астран' => 'ASTRA H',
+  'mokka' => 'MOKKA',
+  'мока' => 'MOKKA',
   'исигния' => 'ISIGNIA',
   'isignia' => 'ISIGNIA',
+  'vectra' => 'VECTRA',
+  'вектра' => 'VECTRA',
   'tigo' => 'TIGO',
   'тиго' => 'TIGO',
   'amulet' => 'AMULET',
@@ -402,10 +409,14 @@ hash_model = {
   'каптюр' => 'KAPTUR',
   'duster' => 'DUSTER',
   'дастер' => 'DUSTER',
+  'megan1' => 'MEGAN 1',
+  'меган1' => 'MEGAN 1',
   'megan2' => 'MEGAN 2',
   'меган2' => 'MEGAN 2',
   'megan3' => 'MEGAN 3',
   'меган3' => 'MEGAN 3',
+  'fluence' => 'FLUENCE',
+  'флюенс' => 'FLUENCE',
   'octavia' => 'OCTAVIA',
   'октавия' => 'OCTAVIA',
   'rapid' => 'RAPID',
@@ -420,6 +431,7 @@ hash_model = {
   'шеви' => 'ШЕВИ НИВА',
   'шевинива' => 'ШЕВИ НИВА',
   '2114' => '2114',
+  '2107' => '2107',
   '2115' => '2115',
   '2109' => '2109',
   'gazel' => 'GAZEL',
@@ -428,6 +440,8 @@ hash_model = {
   'priora' => 'PRIORA',
   'niva' => 'NIVA',
   'нива' => 'NIVA',
+  'patriot' => 'PATRIOT',
+  'патриот' => 'PATRIOT',
   'focus2' => 'FOCUS 2',
   'фокус2' => 'FOCUS 2',
   'focus3' => 'FOCUS 3',
@@ -443,16 +457,28 @@ hash_model = {
   'vjyltj4' => 'MONDEO 4',
   'мондео4' => 'MONDEO 4',
   'ьщтвущ4' => 'MONDEO 4',
+  'kuga' => 'KUGA',
+  'куга' => 'KUGA',
   'camry' => 'CAMRY',
   'камри' => 'CAMRY',
   'авенсис' => 'AVENSIS',
   'avensis' => 'AVENSIS',
+  'corolla' => 'COROLLA',
+  'корола' => 'COROLLA',
+  'highlander' => 'HIGHLANDER',
+  'хайлендер' => 'HIGHLANDER',
   'berlingo' => 'BERLINGO',
   'берлинго' => 'BERLINGO',
+  'ландкрузер200' => 'LAND CRUISER 200',
+  'LANDCRUISER200' => 'LAND CRUISER 200',
+  '407' => '407',
+  '408' => '408',
   'c4' => 'C4',
   'с4' => 'C4',
   'c3' => 'C3',
   'с3' => 'C3',
+  'partner' => 'PARTNER',
+  'партнер' => 'PARTNER',
   'crv' => 'CRV',
   'срв' => 'CRV',
   'acord' => 'ACORD',
@@ -467,7 +493,9 @@ hash_model = {
   'мазда6' => 'MAZDA 6',
   'mazda6' => 'MAZDA 6',
   'cx5' => 'CX5',
-  'cx9' => 'CX9'
+  'cx9' => 'CX9',
+  'jolion' => 'JOLION',
+  'джулион' => 'JOLION'
 }
 
 # require 'file'
@@ -654,9 +682,8 @@ if input_sw != ''
   # Метод копирования выбранного файла из одного места в другое.
   FileUtils.cp(sw_file[selected - 1], "E:/BAZA/#{@auto}/#{@model_auto}/#{@number_auto}/")
 end
-system('C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
-       "E:/BAZA/#{@auto}/#{@model_auto}/#{@number_auto}/#{@number_auto}.html")
-
+#system('C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+#       "E:/BAZA/#{@auto}/#{@model_auto}/#{@number_auto}/#{@number_auto}.html")
 exit
 
 # Способ замены все что после слова Дата, на новое время в интерпол. строк.
